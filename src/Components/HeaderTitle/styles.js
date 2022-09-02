@@ -4,13 +4,12 @@ import { RFPercentage, } from "react-native-responsive-fontsize";
 const HeaderTitleStyles = StyleSheet.create({
     HeaderViewStyle: {
         flexDirection: 'column',
-        height: '8%',
-        backgroundColor: '#eee',
+        paddingVertical: 5,
+        backgroundColor: 'white',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
         width: "100%",
-        paddingHorizontal: 10
     },
     Header_Details_ViewStyle: {
         flexDirection: 'row',

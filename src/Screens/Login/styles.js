@@ -4,36 +4,34 @@ import { StyleSheet } from "react-native";
 const LoginStyle = StyleSheet.create({
     container:{
         flex:1,
+        backgroundColor: 'white'
     },
     SecondUIView:{
-
+        marginTop: 28,
+        position:'relative', 
+        zIndex:1,
     },
     HeaderText:{
         fontSize:40,
         fontWeight:'bold',
         textAlign:'center',
-        marginTop:'10%',
         color:'#333',
     },
     TextStyle:{
         fontSize:18,
         fontWeight:'500',
-        margin:'3%',
-        textAlign:'center'
+        textAlign:'center',
     },
     input:{
-        marginHorizontal:'5%',
-        marginVertical:'3%',
-        borderRadius:5,
+        width:'87%',
+        alignSelf:'center',
+        borderRadius:6,
+        marginTop:8,
         borderWidth:1,
-        borderColor:'#333',
-        color:'#333',
-        paddingLeft:'5%',
-        fontSize:16
+        borderColor:'rgba(0, 0, 0, 0.1)',
+        padding: 16,
     },
-    CheckBox_Style: {
-        marginLeft:'4%'
-    },
+    CheckBox_Style: {},
     CheckBoxView:{
         flexDirection:'row',
         alignItems:'center'
